@@ -2,9 +2,8 @@ package db
 
 import (
 	"database/sql"
-	"log"
-
 	"github.com/go-sql-driver/mysql"
+	"log"
 )
 
 func NewMySQLStorage(cfg mysql.Config) (*sql.DB, error) {
